@@ -5,7 +5,8 @@ function Card (){
       <p className="card-text">Hola bienvebidos a esta prueba...</p>
       <a href="https://www.instagram.com/?hl=es" className="btn btn-primary">instagram</a>
       <a href="https://es-la.facebook.com/login/device-based/regular/login/" className="btn btn-primary">facebook</a>
-      <a href="https://x.com/?lang=es&mx=2" className="btn btn-primary">x</a>
+      
+  
 
 
     </div>

@@ -5,9 +5,24 @@ function Carrusel() {
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
+            <a href="https://x.com/?lang=es&mx=2" className="icons twitter">
+              <i className="bi bi-twitter"></i> 
+            </a>
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/" className="icons facebook">
+              <i className="bi bi-facebook"></i> 
+            </a>
+            <a href="https://www.instagram.com/?hl=es" className="icons instagram">
+              <i className="bi bi-instagram"></i>
+            </a>
+            <a href="https://github.com/" className="icons github">
+              <i className="bi bi-github"></i>
+            </a>
           <img src="src/components/imagen.png" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/" className="icons">
+              <i className="bi bi-facebook"></i> 
+            </a>
           <img src="src/components/radio.png" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">

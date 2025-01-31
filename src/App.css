@@ -72,14 +72,11 @@ h1 {
   max-width: 500px;
 }
 
-/* Estilo adicional para el carrusel */
-.carrusel {
-  background-color: #eeeeee;
-}
 
 /* Estilo para los iconos */
 .icons {
   text-align: center;
+
 }
 
 .icon-link {
@@ -100,4 +97,28 @@ h1 {
 .bi {
   width: 24px;
   height: 24px;
+}
+
+
+
+/* Estilos personalizados para los íconos */
+.icons i {
+  font-size: 30px;  /* Tamaño del ícono */
+  transition: color 0.3s;  /* Efecto de transición al cambiar color */
+}
+
+.icons.twitter i {
+  color: #1da1f2;  /* Color de Twitter */
+}
+
+.icons.facebook i {
+  color: #1877f2;  /* Color de Facebook */
+}
+
+.icons.instagram i {
+  color: #E4405F;  /* Color de Instagram */
+}
+
+.icons i:hover {
+  opacity: 0.7; /* Efecto de opacidad cuando se pasa el ratón */
 }
