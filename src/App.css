@@ -40,3 +40,64 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+/* App.css */
+
+/* Estilo para el contenedor principal */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el encabezado */
+h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+/* Estilo para los componentes */
+.card, .carrusel, .icons {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Estilo adicional para el carrusel */
+.carrusel {
+  background-color: #eeeeee;
+}
+
+/* Estilo para los iconos */
+.icons {
+  text-align: center;
+}
+
+.icon-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 100%;
+  text-decoration: none;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.icon-link:hover {
+  background-color: #0056b3;
+}
+
+.bi {
+  width: 24px;
+  height: 24px;
+}

@@ -1,9 +1,13 @@
 function Card (){
     return <div className="card">
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
+      <h5 className="card-title">Tarjeta de prueba</h5>
+      <p className="card-text">Hola bienvebidos a esta prueba...</p>
+      <a href="https://www.instagram.com/?hl=es" className="btn btn-primary">instagram</a>
+      <a href="https://es-la.facebook.com/login/device-based/regular/login/" className="btn btn-primary">facebook</a>
+      <a href="https://x.com/?lang=es&mx=2" className="btn btn-primary">x</a>
+
+
     </div>
   </div>
 
