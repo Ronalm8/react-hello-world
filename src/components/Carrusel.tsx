@@ -18,18 +18,18 @@ function Carrusel() {
               <i className="bi bi-github"></i>
             </a>
           </div>
-          <img src="src/components/imagen.png" className="d-block w-100" alt="..." />
+          <img src="src/components/imagen.png" className="img" alt="..." />
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item active">
           <div className="icons">
             <a href="https://es-la.facebook.com/login/device-based/regular/login/" className="facebook">
               <i className="bi bi-facebook"></i>
             </a>
           </div>
-          <img src="src/components/radio.png" className="d-block w-100" alt="..." />
+          <img src="src/components/radio.png" className="img"alt="..." />
         </div>
-        <div className="carousel-item">
-          <img src="src/components/gol.png" className="d-block w-100" alt="..." />
+        <div className="carousel-item active">
+          <img src="src/components/gol.png" className="img" alt="..." />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

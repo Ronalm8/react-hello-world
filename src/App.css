@@ -142,6 +142,10 @@ h1 {
 .github:hover i{
   color: #333;
 }
-.img{
+
+.img {
+  display: block;          
+  width: 100%;             
   padding: 100px;
+  height: 100%;
 }
